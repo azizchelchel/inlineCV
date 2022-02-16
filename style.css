@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+}
+.input
+{
+    padding: 1em;
+    border: solid rgb(170, 170, 233) 2px;
+}
+.display
+{
+    padding: 1em;
+    border:  solid rgb(170, 170, 233) 2px;
+}
+.page
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    background:white;
+
+}
